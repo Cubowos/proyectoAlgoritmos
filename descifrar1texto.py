@@ -1,7 +1,7 @@
 from typing import Counter
 
 def cargarPalabras():
-    archivo = open("wordsitalian.txt","r")
+    archivo = open("wordsFrench.txt","r")
     texto = archivo.read()
     datos = texto.split()
     archivo.close()
@@ -15,9 +15,20 @@ cifrado="Zdhrmxxj, bu hdcdllj rim dpmpd ymh zocxojhm dzorj bu cdeej, zd uju buj 
 cifrado= cifrado.lower()
 #d=e m=a QUIZAS
 
-#probando con dpmpd
+'''#probando con dpmpd
 for pal in dic:
     if  (len(pal)==5):
         if(pal[0]==pal[-1]) :
             if(pal[1]==pal[3]):
                 print(pal)
+#dxxd
+for pal in dic:
+    if (len(pal)==4):
+        if (pal[0]==pal[1] and pal[1]==pal[2]):
+            print(pal)'''
+
+#dffjttj
+for pal in dic:
+    if (len(pal)==7):
+        if(pal[1]==pal[2] and pal[3]and pal[-1] and pal[-2]==pal[-3]):
+            print(pal)
