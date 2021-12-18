@@ -17,9 +17,31 @@ cifrado= cifrado.lower()
 #dpmpd
 for pal in dic:
     if (len(pal)==5 and pal[0]==pal[-1]and pal[1]==pal[-2] and pal[2]=="a"):
+        print(pal)#etate
+print('-----------------------------------------')        
+#ydmtm
+for pal in dic:
+    if(len(pal)==5 and pal[-1]==pal[-3]=="a" and pal[1]=="e"):
+        print(pal)#deaua
+print('-----------------------------------------')
+#ydfhm
+for pal in dic:
+    if(len(pal)==6 and pal[-1]=="a" and pal[0]=="d" and pal[1]=="e" and pal[-3]!="a" and pal[-3]!="e") :
         print(pal)
+print('-----------------------------------------')
+
+#dffjttj
+for pal in dic:
+    if(len(pal)==7 and pal[0]=="e" and pal[-1]==pal[-4]):
+        print(pal)
+
+
 '''
 D=e
 M=a
 P=t 
+Y=d
+T=u
+F=b,m,s,v
+h=r,s
 '''
