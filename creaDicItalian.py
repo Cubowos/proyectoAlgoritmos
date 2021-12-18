@@ -1,5 +1,5 @@
 
-arch = open("texto.txt", "r")
+arch = open("texto1.txt", "r")
 texto = arch.read()
 texto2 = ""
 texto = texto.lower()
@@ -26,6 +26,6 @@ for d in datos:
 dic.sort()      
 print(dic)
 arch.close()
-with open("diccionarioIntaliano.txt",'w') as output:
+with open("diccionarioIntaliano2.txt",'w') as output:
     for row in dic:
         output.write(str(row)+" ")
