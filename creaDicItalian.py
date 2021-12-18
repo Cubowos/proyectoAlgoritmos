@@ -26,6 +26,6 @@ for d in datos:
 dic.sort()      
 print(dic)
 arch.close()
-with open("diccionarioIntaliano.txt",'w') as output:
+with open("diccionarioItaliano.txt",'w') as output:
     for row in dic:
         output.write(str(row)+" ")
