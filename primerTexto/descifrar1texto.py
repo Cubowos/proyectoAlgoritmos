@@ -1,7 +1,7 @@
 from typing import Counter
 
 def cargarPalabras():
-    archivo = open("diccionarioIntaliano.txt","r")
+    archivo = open("diccionarioItaliano.txt","r")
     texto = archivo.read()
     datos = texto.split()
     archivo.close()
