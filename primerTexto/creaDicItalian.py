@@ -4,7 +4,7 @@ texto2 = ""
 texto = texto.lower()
 alfabeto = "abcdefghijklmnopqkrstuvwxyz' "
 for c in texto:
-    if c in "àèìòù./\n":
+    if c in "àèìòùé./\n":
         if c == "à":
             texto2+="a"
         elif c == "è" :
@@ -21,6 +21,8 @@ for c in texto:
             texto2+=" "
         elif c== "\n":
             texto2+=" "
+        elif c== "é":
+            texto2+="e"
     elif(c in alfabeto):
         texto2+=c
 print(texto2)
