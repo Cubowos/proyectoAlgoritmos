@@ -17,58 +17,12 @@ cifrado= cifrado.lower()
 
 '''
 D= e
-M= a
-P= s,t, r
-T= t,p
-X= b,c,f,m,s
-U= s,t
-F= t,h
-Z= b,c,d,f,m,p,r,s,t,v
-H= t
-O= p,s
-B= p,o,t
-L= m
-C= n
-J= o
+
 '''
-
-#dpmttm
+#dgoedueo
 for pal in dic:
-    if (len(pal)==6 and pal[0]=="e" and pal[-1] ==pal[2] and pal[-2]==pal[-3] and pal[-1]=="a"):
+    if(len(pal)==8 and pal[0]=="e" and pal[4]=="e" and pal[2]==pal[-1] and pal[3]==pal[-2]):
         print(pal)
-print("------------------------")
-
-#dxxd
-for pal in dic:
-    if (len(pal)==4 and pal[0]==pal[-1] and pal[0]=="e" and pal[1]==pal[-2]):
-        print(pal)
-print("------------------------")
-#dufdpd
-for pal in dic:
-    if (len(pal)==6 and pal[0]==pal[-1] and pal[0]==pal[-3] and pal[0]=="e" and pal[1]!=pal[2]):
-        print(pal)
-print("------------------------")
-
-#Zdhrmxxj
-for pal in dic:
-    if(len(pal)==8 and pal[-4]=="a" and pal[1]=="e" and pal[-2]==pal[-3] and pal[-1]!="e" and pal[-1]!="a" and pal[2]!=pal[3] and pal[2]!=pal[-2] and pal[-2]!=pal[0] and pal[-2]!=pal[3]):
-        if(pal[-2]=="b" or pal[-2]=="c" or pal[-2]=="f" or pal[-2]=="m" or pal[-2]=="s"):
-            print(pal)
-print("------------------------")
-#dobedhm
-for pal in dic:
-    if(len(pal)==7 and pal[0]==pal[-3] and pal[0]=="e" and pal[-1]=="a"):
-        if(pal[-2]=="d" or pal[-2]=="c" or pal[-2]=="n" or pal[-2]=="t" or pal[-2]=="s" or pal[-2]=="t" or pal[-2]=="b" or pal[-2]=="p" or pal[-2]=="i"):
-            print(pal)
-print("------------------------")
-
-#hdcdllj
-for pal in dic:
-    if(len(pal)==7 and pal[1]==pal[3] and pal[1]=="e" and pal[-2]==pal[-3] and pal[1]!=pal[-1]):
-        if(pal[0]=="t" or pal[0]=="i"):
-            print(pal)
-print("------------------------")
-
 
 
 '''
